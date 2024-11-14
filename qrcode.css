@@ -1,0 +1,33 @@
+.maincontent {
+  display: flex;
+  padding: 10px;
+  flex-direction: column;
+  gap: 2rem;
+  justify-content: center;
+  text-align: center;
+  background-color: #6495ed;
+}
+input,
+button {
+  padding: 10px;
+}
+button {
+  font-weight: bold;
+}
+button:hover:active {
+  transition: 0.2s ease-in 0.1s;
+  background-color: black;
+  color: #ffffff;
+}
+h1 {
+  text-align: center;
+  color: #008000;
+}
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: #000000;
+}
